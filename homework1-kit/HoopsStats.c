@@ -42,7 +42,7 @@ void sort(struct player* head){
 				ptr1->next->jerseyNumber = temp2; 
 
 				//swap appg 
-				int temp3 = ptr1->appg; 
+				float temp3 = ptr1->appg; 
 				ptr1->appg = ptr1->next->appg; 
 				ptr1->next->appg = temp3; 
 
@@ -68,7 +68,7 @@ void sort(struct player* head){
 					ptr1->next->jerseyNumber = t2; 
 
 					//swap appg 
-					int t3 = ptr1->appg; 
+					float t3 = ptr1->appg; 
 					ptr1->appg = ptr1->next->appg; 
 					ptr1->next->appg = t3; 
 
