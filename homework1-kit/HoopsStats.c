@@ -29,7 +29,7 @@ void sort(struct player* head){
 		// loop until there is a next node 
 		while (ptr1->next!=NULL){
 			if (ptr1->appg < ptr1->next->appg){
-				sorted = 0; 
+				// sorted = 0; 
 				//swap lastName positions  
 				char temp1[100]; 
 				strncpy(temp1,ptr1->lastName, 100); 
@@ -55,7 +55,7 @@ void sort(struct player* head){
 			//if there is a tie between appg 
 			if (ptr1->appg == ptr1->next->appg){
 				if (strncmp(ptr1->lastName,ptr1->next->lastName,100)>0){
-					sorted = 0; 
+					// sorted = 0; 
 					//swap lastName positions  
 					char t1[100]; 
 					strncpy(t1,ptr1->lastName, 100); 
