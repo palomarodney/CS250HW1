@@ -196,7 +196,7 @@ int main(int argc, char *argv[1]){
 		counter ++; 
 	
 	}
-	
+	fclose(stat);
 	sort(head); 
 	print(head); 
 	freePlayer(head);
